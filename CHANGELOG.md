@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.0.1...v0.0.2) (2024-04-17)
+
+
+### Bug Fixes
+
+* Adjust values so that "global.imageRegistry" works as intended ([4fdee68](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/4fdee68023d600302d7b502304b1e8a5fde0fbc2))
+* Update common to version 2.19.1 and use the OCI repository ([3179c93](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/3179c93727066c8dbb815315345e9ca6dff1a67f))
+
 ## 0.0.1 (2024-02-23)
 
 
