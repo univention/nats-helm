@@ -24,4 +24,11 @@ lint-pre-commit:
   before_script:
     - helm repo add bitnami "https://charts.bitnami.com/bitnami"
 
+test-chart-unit:
+  stage: test
+  image: "gitregistry.knut.univention.de/univention/customers/dataport/upx/common-helm/testrunner:0.6.1"
+  script:
+    - helm dep build helm/nats
+    - pytest
+
 ...
