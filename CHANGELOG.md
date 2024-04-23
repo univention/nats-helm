@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.0.2...v0.1.0) (2024-04-23)
+
+
+### Features
+
+* changes to support the refactored umbrella values in a nubus deployment ([bfb52d4](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/bfb52d4b3ab9f27663ec83c8105716e6913ea74b))
+
 ## [0.0.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.0.1...v0.0.2) (2024-04-17)
 
 
