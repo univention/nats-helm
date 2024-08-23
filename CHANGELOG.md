@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.0...v0.1.1) (2024-08-23)
+
+
+### Bug Fixes
+
+* make affinity actually configurable ([99a6dc1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/99a6dc1f40eabd0b11d6450040d19cbc476957cc))
+
 ## [0.1.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.0.2...v0.1.0) (2024-04-23)
 
 
