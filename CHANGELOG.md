@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.1...v0.1.2) (2024-09-23)
+
+
+### Bug Fixes
+
+* allow extraConfig for nats ([9eabd5d](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/9eabd5d156b0a5a4cc789561f2362349c8782e6a))
+* use .Values.persistence.size, drop .Values.config.jetstream.fileStore.pvc.size ([6a4e85b](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/6a4e85b2c9b3d51460002f1f7d4a55533893414c))
+
 ## [0.1.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.0...v0.1.1) (2024-08-23)
 
 
