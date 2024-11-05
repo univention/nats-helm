@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.2...v0.2.0) (2024-11-05)
+
+
+### Features
+
+* refactor users creation to allign with the new secrets configuration best-practices ([06fd989](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/06fd989ccd02d5b714bf06ed9e4fbefac769b76a))
+
 ## [0.1.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.1...v0.1.2) (2024-09-23)
 
 
