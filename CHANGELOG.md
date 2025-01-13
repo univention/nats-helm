@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.2.0...v0.3.0) (2025-01-13)
+
+
+### Features
+
+* enable authorization by default ([c23bcf3](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/c23bcf38eea6f42071ce44556471e1ba64243b49))
+* refactor users creation to allign with the new secrets configuration best-practices ([90b513f](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/90b513ff57535634950b1a43530bf754477bc5e4))
+
 ## [0.2.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.1.2...v0.2.0) (2024-11-05)
 
 
