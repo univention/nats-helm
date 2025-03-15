@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.0...v0.3.1) (2025-03-15)
+
+
+### Bug Fixes
+
+* Update nats container versions ([a23a041](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/a23a041143d3426e8d583641c5ea88d48205aaa5)), closes [univention/dev-issues/dev-incidents#131](https://git.knut.univention.de/univention/dev-issues/dev-incidents/issues/131)
+
 ## [0.3.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.2.0...v0.3.0) (2025-01-13)
 
 
