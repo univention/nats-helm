@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.1...v0.3.2) (2025-03-15)
+
+
+### Bug Fixes
+
+* Fix image tag typo ([ac64496](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/ac64496eca95ee03fc291c50249f9aab009d5704))
+
 ## [0.3.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.0...v0.3.1) (2025-03-15)
 
 
