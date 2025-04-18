@@ -353,7 +353,7 @@ nats:
     # -- Container registry address. This setting has higher precedence than global.registry.
     registry: null
     repository: "library/nats"
-    tag: 2.10.26@sha256:736d575e60135ce1d50fc206675d48d0e57dcaa0704f696f0cb4b5f6dadd49d7
+    tag: 2.11.1@sha256:29ae7f55fbaa9d23949237c58593a3451ef74493e5b3644d6a837219d1d4028c
 
 reloader:
   # -- Enable the config reloader
@@ -380,7 +380,7 @@ natsBox:
     # -- Container registry address. This setting has higher precedence than global.registry.
     registry: null
     repository: "natsio/nats-box"
-    tag: "0.16.0-nonroot@sha256:f486ca86dfc9b72a2310ea720994a94ce55e447ad01daccd2fb33d61f322dc51"
+    tag: "0.17.0-nonroot@sha256:620595efcaa65766074d4faee6933c68412ae01cc5e4ae144e9bfec7f3ff4b8b"
   resources:
     limits:
       memory: "256Mi"
