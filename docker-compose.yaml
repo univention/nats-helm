@@ -5,7 +5,7 @@
 services:
 
   test:
-    image: gitregistry.knut.univention.de/univention/customers/dataport/upx/common-helm/testrunner:0.6.1
+    image: gitregistry.knut.univention.de/univention/dev/nubus-for-k8s/common-helm/testrunner:0.12.3
     profiles:
       - test
     volumes:
