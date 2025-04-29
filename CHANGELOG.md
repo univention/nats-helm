@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.2...v0.4.0) (2025-04-29)
+
+
+### Features
+
+* Remove docker.io dependencies ([0a2357f](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/0a2357fa16212779d50060ea13e0279810015caf)), closes [univention/dev/internal/team-nubus#1131](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1131)
+
 ## [0.3.2](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.1...v0.3.2) (2025-03-15)
 
 
