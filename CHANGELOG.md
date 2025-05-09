@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.4.0...v0.4.1) (2025-05-09)
+
+
+### Bug Fixes
+
+* move addlicense pre-commit hook ([5551544](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/5551544228807b5e1c48b333d01cb04ca8f973ea))
+* update common-ci to main ([ffe69d4](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/commit/ffe69d48570e2bad70d06128420dbf3b66e5dae5))
+
 ## [0.4.0](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.3.2...v0.4.0) (2025-04-29)
 
 
