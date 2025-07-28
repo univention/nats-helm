@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.1...v0.4.2) (2025-07-28)
+
+
+### Bug Fixes
+
+* upgrade NATS to version 2.11.6 ([dc4a1ed](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/dc4a1ed6d2695fcae6f0d702bce4d5c8875def54)), closes [univention/dev/internal/team-nubus#1350](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1350)
+
 ## [0.4.1](https://git.knut.univention.de/univention/customers/dataport/upx/nats-helm/compare/v0.4.0...v0.4.1) (2025-05-09)
 
 
