@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.3](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.2...v0.4.3) (2025-08-14)
+
+
+### Bug Fixes
+
+* storageClass is changed to match the helm template ([8ef3543](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/8ef35437a6652638653af7e87b1abedf0583c8c6)), closes [univention/dev/internal/team-nubus#1382](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1382)
+
 ## [0.4.2](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.1...v0.4.2) (2025-07-28)
 
 
