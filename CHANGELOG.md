@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.5.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.3...v0.5.0) (2025-10-13)
+
+
+### Features
+
+* Support existingSecrets pattern for nats users and passwords ([fa4c061](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/fa4c06151e41966dae0cb254a216b98f7e40af30)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+
+
+### Bug Fixes
+
+* Add helm unittests for the secrets used in the chart and fix chart bugs that the unittests discovered ([308bd91](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/308bd9169fc8c975b29035eb7d0c438daf6921f3)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+* add kyverno to pre-commit hooks ([83853f5](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/83853f5ab83419e57d9b9572ccd88ec76f72b969)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+* Allign labels, annotations, and image configuration to the Nubus standards ([6698f9e](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/6698f9e557de19ed377e8ed595793b7a105ffa8e)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+* Ensure that auth.existingSecret.name and auth.username can be templated ([c78753e](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/c78753e7133363e8eff7d182b59bc990794eea12)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+* Nats container image version bump from 2.11.6 to 2.11.9 and disable the config reloader by default ([4871486](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/48714865e42fb6c90385e471d335cab7c54b5b0c)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+* Remove unnecessary _helpers.tpl ([248e083](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/248e0830d38f005566cb56655c6ac4e34e58d8a1)), closes [univention/dev/internal/team-nubus#1399](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1399)
+
 ## [0.4.3](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.2...v0.4.3) (2025-08-14)
 
 
