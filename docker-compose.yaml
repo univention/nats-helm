@@ -1,7 +1,6 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # SPDX-FileCopyrightText: 2024 Univention GmbH
 
-
 services:
 
   test:
@@ -10,3 +9,21 @@ services:
       - test
     volumes:
       - ".:/app"
+
+  # Environment of the pre-commit linter.
+  pre-commit:
+    profiles:
+      - test
+    image: gitregistry.knut.univention.de/univention/dev/tooling/pre-commit/upx-pre-commit:latest
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+      - type: volume
+        # pre-commit installs dependencies, having them cached speeds things up
+        # a lot.
+        source: pre-commit-cache
+        target: /cache
+
+volumes:
+  pre-commit-cache:
