@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.5.0...v0.6.0) (2025-10-15)
+
+
+### Features
+
+* allow templated keymappings ([aa8c1f8](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/aa8c1f8e5eb98cec0d2310da58747d288a8f9de9)), closes [univention/dev/internal/team-nubus#1441](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1441)
+
 ## [0.5.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.4.3...v0.5.0) (2025-10-13)
 
 
