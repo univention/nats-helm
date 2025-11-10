@@ -22,7 +22,7 @@ lint-pre-commit:
 
 test-chart-unit:
   stage: test
-  image: "gitregistry.knut.univention.de/univention/dev/nubus-for-k8s/common-helm/testrunner:0.28.11"
+  image: "gitregistry.knut.univention.de/univention/dev/nubus-for-k8s/common-helm/testrunner:0.28.12"
   script:
     - helm dep build helm/nats
     - pytest
