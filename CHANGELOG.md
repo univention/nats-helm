@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.6.0...v0.7.0) (2025-11-10)
+
+
+### Features
+
+* remove all probes for natsBox and reloader / disable natsBox ([2a26658](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/2a26658aae06e74fca4d81431be97672948b6db8)), closes [univention/dev/internal/team-nubus#1514](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1514)
+
 ## [0.6.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.5.0...v0.6.0) (2025-10-15)
 
 
