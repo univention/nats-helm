@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.0...v0.7.1) (2025-11-14)
+
+
+### Bug Fixes
+
+* use mirrored NATS images ([61b4509](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/61b4509c509b9c00f59e97754786ddadb480f053)), closes [univention/dev/internal/team-nubus#1515](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1515)
+
 ## [0.7.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.6.0...v0.7.0) (2025-11-10)
 
 
