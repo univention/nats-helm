@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.3](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.2...v0.7.3) (2025-12-09)
+
+
+### Bug Fixes
+
+* **helm:** Add component-specific extraEnvVars support ([b970971](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/b970971e2cf41808661875ee8ff547866ba54ab6)), closes [univention/dev/internal/team-nubus#977](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/977)
+
 ## [0.7.2](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.1...v0.7.2) (2025-12-05)
 
 
