@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.6](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.5...v0.7.6) (2026-01-14)
+
+
+### Bug Fixes
+
+* **deps:** Update dependency univention/dev/nubus-for-k8s/common-ci to v1.54.2 ([e8387d2](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/e8387d267c796bba6f32ea1abcdd31ef389108e8)), closes [#0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/issues/0)
+
 ## [0.7.5](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.4...v0.7.5) (2025-12-23)
 
 
