@@ -140,7 +140,7 @@ false
 			<td></td>
 		</tr>
 		<tr>
-			<td>config.cluster.authorization.password</td>
+			<td>config.cluster.authorization.passwordVariable</td>
 			<td>string</td>
 			<td><pre lang="json">
 ""
@@ -297,7 +297,16 @@ null
 "/certificates/tls.crt"
 </pre>
 </td>
-			<td>Name of the certificate to mount, must be set if tls is enabled certificateSecret: ""</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>config.tls.certificateSecret</td>
+			<td>string</td>
+			<td><pre lang="json">
+null
+</pre>
+</td>
+			<td>Name of the certificate to mount, must be set if tls is enabled</td>
 		</tr>
 		<tr>
 			<td>config.tls.enabled</td>
@@ -421,15 +430,6 @@ true
 			<td>Disallow custom Seccomp profile by setting it to RuntimeDefault.</td>
 		</tr>
 		<tr>
-			<td>extraEnvVars</td>
-			<td>list</td>
-			<td><pre lang="json">
-[]
-</pre>
-</td>
-			<td>Array with extra environment variables to add to containers.  extraEnvVars:   - name: FOO     value: "bar"</td>
-		</tr>
-		<tr>
 			<td>extraSecrets</td>
 			<td>list</td>
 			<td><pre lang="json">
@@ -455,6 +455,15 @@ true
 </pre>
 </td>
 			<td>Optionally specify an extra list of additional volumes.</td>
+		</tr>
+		<tr>
+			<td>fullnameOverride</td>
+			<td>string</td>
+			<td><pre lang="json">
+null
+</pre>
+</td>
+			<td>Provide a name to substitute for the full names of resources.</td>
 		</tr>
 		<tr>
 			<td>global.imagePullPolicy</td>
@@ -484,13 +493,13 @@ null
 			<td>Container registry address.</td>
 		</tr>
 		<tr>
-			<td>global.nubusDeployment</td>
-			<td>bool</td>
+			<td>global.secrets.masterPassword</td>
+			<td>string</td>
 			<td><pre lang="json">
-false
+null
 </pre>
 </td>
-			<td>Indicates wether this chart is part of a Nubus deployment.</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>imagePullSecrets</td>
@@ -500,6 +509,15 @@ false
 </pre>
 </td>
 			<td>Credentials to fetch images from private registry. Ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/  imagePullSecrets:   - "docker-registry"</td>
+		</tr>
+		<tr>
+			<td>kubeVersion</td>
+			<td>string</td>
+			<td><pre lang="json">
+""
+</pre>
+</td>
+			<td>Kubernetes version override (used by capability helpers).</td>
 		</tr>
 		<tr>
 			<td>lifecycleHooks</td>
@@ -1076,6 +1094,15 @@ true
 			<td></td>
 		</tr>
 		<tr>
+			<td>service.ports.client.nodePort</td>
+			<td>string</td>
+			<td><pre lang="json">
+null
+</pre>
+</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>service.ports.client.port</td>
 			<td>int</td>
 			<td><pre lang="json">
@@ -1103,6 +1130,15 @@ true
 			<td></td>
 		</tr>
 		<tr>
+			<td>service.ports.cluster.nodePort</td>
+			<td>string</td>
+			<td><pre lang="json">
+null
+</pre>
+</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>service.ports.cluster.port</td>
 			<td>int</td>
 			<td><pre lang="json">
@@ -1125,6 +1161,15 @@ true
 			<td>int</td>
 			<td><pre lang="json">
 8222
+</pre>
+</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>service.ports.monitor.nodePort</td>
+			<td>string</td>
+			<td><pre lang="json">
+null
 </pre>
 </td>
 			<td></td>

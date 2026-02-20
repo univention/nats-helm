@@ -60,6 +60,9 @@ authorization {
   user: {{ .Values.config.cluster.authorization.user }}
   password: ${{ .Values.config.cluster.authorization.passwordVariable }}
   {{- end }}
+  {{- if .Values.config.cluster.authorization.timeout }}
+  timeout: {{ .Values.config.cluster.authorization.timeout }}
+  {{- end }}
 }
 {{- end -}}
 {{- end -}}

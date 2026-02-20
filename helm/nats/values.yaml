@@ -4,8 +4,8 @@
 ---
 # The global properties are used to configure multiple charts at once.
 global:
-  # -- Indicates wether this chart is part of a Nubus deployment.
-  nubusDeployment: false
+  secrets:
+    masterPassword: null
   # -- Container registry address.
   imageRegistry: "artifacts.software-univention.de"
 
@@ -76,13 +76,6 @@ containerSecurityContext:
   runAsNonRoot: true
   privileged: false
 
-# -- Array with extra environment variables to add to containers.
-#
-# extraEnvVars:
-#   - name: FOO
-#     value: "bar"
-extraEnvVars: []
-
 # -- Optionally specify a secret to create (primarily intended to be used in development environments to provide custom certificates)
 extraSecrets: []
 
@@ -93,7 +86,7 @@ extraVolumes: []
 extraVolumeMounts: []
 
 # -- Provide a name to substitute for the full names of resources.
-# fullnameOverride: ""
+fullnameOverride: null
 
 # -- Credentials to fetch images from private registry.
 # Ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
@@ -126,6 +119,9 @@ livenessProbe:
     path: /healthz?js-enabled-only=true
     port: monitor
     scheme: HTTP
+
+# -- Kubernetes version override (used by capability helpers).
+kubeVersion: ""
 
 # -- String to partially override release name.
 nameOverride: ""
@@ -264,14 +260,17 @@ service:
       containerPort: 4222
       port: 4222
       protocol: TCP
+      nodePort: null
     cluster:
       containerPort: 6222
       port: 6222
       protocol: TCP
+      nodePort: null
     monitor:
       containerPort: 8222
       port: 8222
       protocol: TCP
+      nodePort: null
 
 # Configure resource requests and limits.
 #
@@ -396,7 +395,7 @@ config:
   tls:
     enabled: false
     # -- Name of the certificate to mount, must be set if tls is enabled
-    # certificateSecret: ""
+    certificateSecret: null
     cert_file: /certificates/tls.crt
     key_file: /certificates/tls.key
     ca_file: /certificates/ca.crt
@@ -418,7 +417,7 @@ config:
       enabled: false
       # Ref: https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_intro#authorization-map
       user: ""
-      password: ""
+      passwordVariable: ""
       timeout: 0.5
   # Ref: https://docs.nats.io/running-a-nats-service/nats_admin/lame_duck_mode
   lame_duck_duration: "30s"

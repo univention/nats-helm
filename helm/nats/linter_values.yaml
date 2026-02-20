@@ -4,6 +4,8 @@
 global:
   secrets:
     masterPassword: "nubus"
+  kubeVersion: "1.2.4"
+
 
 resources:
   limits:
@@ -12,3 +14,38 @@ resources:
   requests:
     cpu: "100m"
     memory: "64Mi"
+
+# Example values to satisfy helm-snoop linting for nats.extraEnvVars item shape.
+# This file is not intended for actual deployment.
+nats:
+  extraEnvVars:
+    - name: "EXAMPLE"
+      value: "example"
+    - name: "EXAMPLE_FIELD_REF"
+      valueFrom:
+        fieldRef:
+          fieldPath: "metadata.name"
+    - name: "EXAMPLE_RESOURCE_FIELD_REF"
+      valueFrom:
+        resourceFieldRef:
+          containerName: "main"
+          resource: "limits.memory"
+    - name: "EXAMPLE_CONFIG_MAP_KEY"
+      valueFrom:
+        configMapKeyRef:
+          name: "example-configmap"
+          key: "example-key"
+    - name: "EXAMPLE_SECRET_KEY"
+      valueFrom:
+        secretKeyRef:
+          name: "example-secret"
+          key: "example-key"
+    - valueFrom: ""
+    - valueFrom:
+        fieldRef: ""
+    - valueFrom:
+        resourceFieldRef: ""
+    - valueFrom:
+        configMapKeyRef: ""
+    - valueFrom:
+        secretKeyRef: ""
