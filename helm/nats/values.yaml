@@ -5,7 +5,9 @@
 # The global properties are used to configure multiple charts at once.
 global:
   secrets:
+    # -- Master password from which other passwords are derived.
     masterPassword: null
+
   # -- Container registry address.
   imageRegistry: "artifacts.software-univention.de"
 
@@ -121,10 +123,10 @@ livenessProbe:
     scheme: HTTP
 
 # -- Kubernetes version override (used by capability helpers).
-kubeVersion: ""
+kubeVersion: null
 
 # -- String to partially override release name.
-nameOverride: ""
+nameOverride: null
 
 # -- Node labels for pod assignment.
 # Ref: https://kubernetes.io/docs/user-guide/node-selection/
@@ -417,7 +419,7 @@ config:
       enabled: false
       # Ref: https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_intro#authorization-map
       user: ""
-      passwordVariable: ""
+      passwordVariable: null
       timeout: 0.5
   # Ref: https://docs.nats.io/running-a-nats-service/nats_admin/lame_duck_mode
   lame_duck_duration: "30s"

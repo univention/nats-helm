@@ -143,7 +143,7 @@ false
 			<td>config.cluster.authorization.passwordVariable</td>
 			<td>string</td>
 			<td><pre lang="json">
-""
+null
 </pre>
 </td>
 			<td></td>
@@ -499,7 +499,7 @@ null
 null
 </pre>
 </td>
-			<td></td>
+			<td>Master password from which other passwords are derived.</td>
 		</tr>
 		<tr>
 			<td>imagePullSecrets</td>
@@ -514,7 +514,7 @@ null
 			<td>kubeVersion</td>
 			<td>string</td>
 			<td><pre lang="json">
-""
+null
 </pre>
 </td>
 			<td>Kubernetes version override (used by capability helpers).</td>
@@ -613,7 +613,7 @@ null
 			<td>nameOverride</td>
 			<td>string</td>
 			<td><pre lang="json">
-""
+null
 </pre>
 </td>
 			<td>String to partially override release name.</td>
