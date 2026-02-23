@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.10](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.9...v0.7.10) (2026-02-23)
+
+
+### Bug Fixes
+
+* **deps:** Update gitregistry.knut.univention.de/univention/dev/nubus-for-k8s/common-helm/testrunner Docker tag to v0.29.10 ([ed08ae5](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/ed08ae50e0603f7be8250f23fcdcbdf00c78e43c)), closes [#0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/issues/0)
+
 ## [0.7.9](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.8...v0.7.9) (2026-02-11)
 
 
