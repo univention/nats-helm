@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.11](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.10...v0.7.11) (2026-02-25)
+
+
+### Bug Fixes
+
+* **deps:** Replace gitregistry.knut.univention.de/univention/dev/tooling/pre-commit/upx-pre-commit Docker tag with gitregistry.knut.univention.de/univention/dev/tooling/pre-commit/univention-pre-commit latest ([c13bbae](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/c13bbae5296defbb37bbc7f51cac4689e456548e)), closes [#0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/issues/0)
+
 ## [0.7.10](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.9...v0.7.10) (2026-02-23)
 
 
