@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.13](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.12...v0.7.13) (2026-02-26)
+
+
+### Bug Fixes
+
+* Bump nats container images ([1c46536](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/1c46536b033bee04170ef466dca9910ecd152ff8)), closes [univention/dev/projects/provisioning#123](https://git.knut.univention.de/univention/dev/projects/provisioning/issues/123)
+
 ## [0.7.12](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.11...v0.7.12) (2026-02-26)
 
 
