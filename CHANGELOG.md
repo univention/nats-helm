@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.12](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.11...v0.7.12) (2026-02-26)
+
+
+### Bug Fixes
+
+* bump nats-box to 0.19.3-nonroot ([97eb212](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/commit/97eb21285f2ed9134b4b64dc11ea57fef7f6e23e)), closes [univention/dev/internal/team-horizon#10](https://git.knut.univention.de/univention/dev/internal/team-horizon/issues/10)
+
 ## [0.7.11](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nats-helm/compare/v0.7.10...v0.7.11) (2026-02-25)
 
 
