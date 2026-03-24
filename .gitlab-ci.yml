@@ -15,6 +15,7 @@ include:
       - "scripts/bash-header.yaml"
       - "scripts/check-required-variables.yaml"
       - "scripts/release-attestation.yaml"
+      - "templates/sonarqube.yaml"
 
 variables:
   SKIP_UPDATE_HELM_VALUES: "1"
@@ -117,4 +118,8 @@ container-release-attestation:
           ${image_name}@${image_digest}
 
       done < "${ATTESTATION_IMAGE_LIST_FILE}"
+
+sonarqube:
+  extends: .sonarqube
+  needs: []
 ...
