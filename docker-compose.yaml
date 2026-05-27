@@ -14,7 +14,7 @@ services:
   pre-commit:
     profiles:
       - test
-    image: gitregistry.knut.univention.de/univention/dev/tooling/pre-commit/univention-pre-commit:latest
+    image: gitregistry.knut.univention.de/univention/dev/tooling/pre-commit/univention-pre-commit:latest@sha256:889f30332e58f535c3924da0e848f91565fad48484941572672ee4d199b88803
     volumes:
       - type: bind
         source: .
